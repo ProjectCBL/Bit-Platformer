@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,4 +17,15 @@ public class PlayerMovement : MonoBehaviour
     {
         
     }
+
+    public void OnMove(InputAction.CallbackContext ctx)
+    {
+
+    }
+
+    public void OnJump()
+    {
+
+    }
+
 }
